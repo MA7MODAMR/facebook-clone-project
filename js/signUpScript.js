@@ -47,8 +47,8 @@ createBtn.addEventListener("click", function () {
 
   userContainer.push(users);
   localStorage.setItem("users", JSON.stringify(userContainer));
-
-  window.location.href="../html/home.html"
+  alert("account created successfully");
+  window.location.href = "../html/LoginPage.html";
   fName.value = "";
   surName.value = "";
   email_Number.value = "";
